@@ -4,8 +4,16 @@ public class Filme {
     private String nome;
     private Integer anoLancamento;
     private Integer nota;
+    private Ator ator;
+    private Diretor diretor;
     
     
+    public Ator getAtor() {
+        return ator;
+    }
+    public void setAtor(Ator ator) {
+        this.ator = ator;
+    }
     public String getNome() {
         return nome;
     }
@@ -23,5 +31,11 @@ public class Filme {
     }
     public void setNota(Integer nota) {
         this.nota = nota;
+    }
+    public Diretor getDiretor() {
+        return diretor;
+    }
+    public void setDiretor(Diretor diretor) {
+        this.diretor = diretor;
     }
 }
