@@ -1,3 +1,4 @@
+package cinema;
 public class Genero {
     private String nome;
 

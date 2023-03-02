@@ -1,3 +1,4 @@
+package cinema;
 public abstract class Ator extends Pessoa {
     private Filme filme;
 

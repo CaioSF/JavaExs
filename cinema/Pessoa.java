@@ -1,3 +1,4 @@
+package cinema;
 public class Pessoa {
     private String nome;
 

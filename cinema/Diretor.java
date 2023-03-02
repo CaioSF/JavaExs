@@ -1,3 +1,4 @@
+package cinema;
 public class Diretor extends Pessoa {
     private Filme filme;
 
