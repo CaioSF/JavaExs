@@ -6,6 +6,10 @@ public class Genero {
         return nome;
     }
 
+    public Genero(String nome) {
+        this.nome = nome;
+    }
+
     public void setNome(String nome) {
         this.nome = nome;
     }

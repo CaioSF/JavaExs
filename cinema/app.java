@@ -4,14 +4,9 @@ public class app {
     
     
     
+    
     public static void main(String[] args) {
         
-        //Pessoa
-        
-        
-        //Ator
-        
-
         
         //Filme
         Filme filme = new Filme();
@@ -20,8 +15,12 @@ public class app {
         filme.setAtor(null);
         filme.setNota(4);
         
+        
       System.out.println(filme.getNome());
       System.out.println(filme.getAnoLancamento());
       System.out.println(filme.getNota());
+    }
+
+    public app() {
     }
 }
